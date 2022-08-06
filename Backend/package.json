@@ -1,0 +1,14 @@
+{
+  "name": "personal-tracker",
+  "version": "1.0.0",
+  "description": "personal tracker backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "karthikeyan",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^6.5.1"
+  }
+}
