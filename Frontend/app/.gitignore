@@ -37,6 +37,8 @@ node_modules/
 npm-debug.log
 yarn-error.log
 
+
+
 # BUCK
 buck-out/
 \.buckd/
@@ -61,3 +63,11 @@ buck-out/
 # Ruby / CocoaPods
 /ios/Pods/
 /vendor/bundle/
+
+
+#removed lock Files
+package-lock.json
+yarn.lock
+
+
+

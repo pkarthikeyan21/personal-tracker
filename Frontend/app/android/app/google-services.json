@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "196301290702",
+    "project_id": "personal-tracker-e3ef0",
+    "storage_bucket": "personal-tracker-e3ef0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196301290702:android:188d6fa34bd17ac23d649f",
+        "android_client_info": {
+          "package_name": "com.personaltracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196301290702-h80qt9mtpeoc1tddqttj83r5725ud27a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRIHADZL49krMScmBETobiJS_WKpGfK-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196301290702-h80qt9mtpeoc1tddqttj83r5725ud27a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
