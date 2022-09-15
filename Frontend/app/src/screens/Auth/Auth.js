@@ -1,20 +1,20 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-
-
-
 import {
     GoogleSignin,
     GoogleSigninButton,
     statusCodes,
   } from '@react-native-google-signin/google-signin';
-
-
   import { styles } from "./styles";
+  import { useSelector, useDispatch } from 'react-redux'
 
 export default function Auth() {
 
     const {container} = styles;
+    const state = useSelector((state) => state)
+
+    console.log(state)
+
 
     GoogleSignin.configure({
         webClientId:'196301290702-h80qt9mtpeoc1tddqttj83r5725ud27a.apps.googleusercontent.com',

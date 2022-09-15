@@ -1,11 +1,14 @@
-import { View, Text } from 'react-native'
 import React from 'react'
-import Auth from "./src/screens/Auth"
-
-
+import AppNavigation from "@navigation/AppNavigation"
+import { Provider } from 'react-redux'
+import store from "@store"
 
 export default function App() {
   return (
-      <Auth />
+    <Provider 
+    store={store}
+    >
+       <AppNavigation />
+    </Provider>
   )
 }
