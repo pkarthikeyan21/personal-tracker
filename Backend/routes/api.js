@@ -1,25 +1,14 @@
-const userController = require("../controller/userController");
-// const chatController = require("../controller/ChatController.js");
+// const userController = require("../controller/userController");
 const { Router } = require("express");
-// const passport = require("passport");
+const passport = require("passport");
 
 const router = Router();
 
 
-// // MiddleWare
-// require("../middleware/passport")(passport);
-// const needAuth = passport.authenticate("jwt", { session: false });
+// MiddleWare
+require("../middleware/passport")(passport);
+const needAuth = passport.authenticate("jwt", { session: false });
 
-
-
-// router.post("/login",userController.login);
-// router.post("/add",userController.create);
-
-
-
-// // Chat Routes
-// router.post("/chat",needAuth,chatController.create);
-// router.get("/incoming/chat",needAuth,chatController.getIncomingMessage);
 
 
 

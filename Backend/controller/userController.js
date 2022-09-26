@@ -1,5 +1,5 @@
 const User = require('../models/User/User')
-const {ReE,ReS,to,isNull,containsSpecialChars} = require('../services/util.services');
+const {ReE,ReS,to,isNull,containsSpecialChars,validateEmail} = require('../services/util.services');
 const HttpStatus = require('http-status');
 const Cryptr = require("cryptr");
 const cryptr = new Cryptr("myTotalySecretKey");
